@@ -38,8 +38,8 @@ body{
 }
 
 .header-container{
-height:30vh;
-margin:auto;
+    height:30vh;
+    margin:auto;
 }
 
 #name{
@@ -47,10 +47,6 @@ margin:auto;
   font-size: 6rem;
   text-align: center;
   font-family: 'Caveat', cursive;
-
-  animation-name: content1;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
 }
 
 #strapline{
@@ -63,27 +59,20 @@ margin:auto;
   animation-fill-mode: forwards;
 }
 
-
 .content-container{
   height:30vh;
   align-items: center;
 }
 
 .about-container{
-    text-align: center;
+    text-align: left;
     align-items: center;
     font-size: 1rem;
     color:white;
     align-items: center;
-    padding: 15% 0%;
-    min-width: 300px;
-    max-width: 1000px;
+    padding: 15% 15% 0 0;
     height: 450px;
     margin:10% auto;
     padding: 10%;
-   
-    animation-name: content1;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
   
