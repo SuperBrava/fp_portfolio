@@ -20,6 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body{
+  color:white;
   /* animation */
   background-attachment: fixed;
   background-image: url("images/background8.jpg");
@@ -40,15 +41,12 @@ body{
     margin:auto;
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  display: inline;
-  background-color: rgba( 255, 255, 255);
+.nav-link{
+  color:white;
 }
 
 #name{
+  color:white;
   padding: 100px auto;
   font-size: 6rem;
   text-align: center;
@@ -62,6 +60,7 @@ nav{
 }
 
 .content-container{
+  color:white;
   height:250px;
   align-items: center;
 }
